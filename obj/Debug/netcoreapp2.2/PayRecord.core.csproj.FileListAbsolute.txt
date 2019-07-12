@@ -1,0 +1,14 @@
+C:\Users\admin\source\repos\PayRecord.core\bin\Debug\netcoreapp2.2\PayRecord.core.deps.json
+C:\Users\admin\source\repos\PayRecord.core\bin\Debug\netcoreapp2.2\PayRecord.core.runtimeconfig.json
+C:\Users\admin\source\repos\PayRecord.core\bin\Debug\netcoreapp2.2\PayRecord.core.runtimeconfig.dev.json
+C:\Users\admin\source\repos\PayRecord.core\bin\Debug\netcoreapp2.2\PayRecord.core.dll
+C:\Users\admin\source\repos\PayRecord.core\bin\Debug\netcoreapp2.2\PayRecord.core.pdb
+C:\Users\admin\source\repos\PayRecord.core\obj\Debug\netcoreapp2.2\PayRecord.core.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\PayRecord.core\obj\Debug\netcoreapp2.2\PayRecord.core.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\PayRecord.core\obj\Debug\netcoreapp2.2\PayRecord.core.RazorAssemblyInfo.cache
+C:\Users\admin\source\repos\PayRecord.core\obj\Debug\netcoreapp2.2\PayRecord.core.RazorAssemblyInfo.cs
+C:\Users\admin\source\repos\PayRecord.core\obj\Debug\netcoreapp2.2\PayRecord.core.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\PayRecord.core\obj\Debug\netcoreapp2.2\PayRecord.core.AssemblyInfo.cs
+C:\Users\admin\source\repos\PayRecord.core\obj\Debug\netcoreapp2.2\PayRecord.core.RazorTargetAssemblyInfo.cache
+C:\Users\admin\source\repos\PayRecord.core\obj\Debug\netcoreapp2.2\PayRecord.core.dll
+C:\Users\admin\source\repos\PayRecord.core\obj\Debug\netcoreapp2.2\PayRecord.core.pdb
