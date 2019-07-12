@@ -2,15 +2,17 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PayRecord.core.Models;
+using PayRecord.core.Shared;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace PayRecord.core.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class TodoController : ControllerBase
     {
@@ -46,12 +48,25 @@ namespace PayRecord.core.Controllers
             return todoItem;
         }
 
-        // POST api/<controller>
+        // POST api/<controller>/
         [HttpPost]
+        [Ajax]
+        [AllowAnonymous]
         public async Task<ActionResult<ToolItem>> PostTodoItem(ToolItem item)
         {
             _context.TodoItems.Add(item);
             await _context.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(GetTodoItem), new { id = item.Id }, item);
+        }
+
+        // POST api/<controller>/PostTodoItem2
+        [HttpPost]
+        [Ajax]
+        public ActionResult<ToolItem> PostTodoItem2(ToolItem item)
+        {
+            _context.TodoItems.Add(item);
+            _context.SaveChangesAsync();
 
             return CreatedAtAction(nameof(GetTodoItem), new { id = item.Id }, item);
         }
@@ -67,5 +82,6 @@ namespace PayRecord.core.Controllers
         public void Delete(int id)
         {
         }
+
     }
 }
